@@ -1,0 +1,253 @@
+:root {
+  --accent-color: #2196f3;
+  --main-title-color: #212121;
+  --main-bottom-color: #757575;
+  --color-white: #ffffff;
+  --button-link: #f5f4f4;
+  --background-color: #2f303a;
+  --studio: #000000;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-title-color);
+  cursor: pointer;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  outline: 2px solid red;
+}
+
+.studio {
+  color: var(--studio);
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+.text-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header-logo-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.header-logo-link:hover,
+.header-logo-link:focus,
+.header-logo-link:active {
+  color: var(--accent-color);
+}
+
+.header-link {
+  color: var(--main-title-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: var(--background-color);
+}
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+
+  color: var(--color-white);
+  letter-spacing: 0.06em;
+
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  border-radius: 4px;
+  padding: 10px 32px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  color: var(--color-white);
+  background-color: var(--accent-color);
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  text-align: center;
+}
+
+.features-skills-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--main-title-color);
+  letter-spacing: 0.03em;
+}
+
+.features-skills-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-bottom-color);
+  letter-spacing: 0.03em;
+}
+
+.employment-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--main-title-color);
+  letter-spacing: 0.03em;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--main-title-color);
+  letter-spacing: 0.03em;
+}
+
+.team-player-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--main-title-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--main-bottom-color);
+  letter-spacing: 0.03em;
+}
+
+.filter-btn {
+  border-radius: 4px;
+  padding: 6px 22px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  background-color: var(--button-link);
+  color: var(--main-title-color);
+  letter-spacing: 0.03em;
+
+  text-align: center;
+}
+
+.filter-btn:hover,
+.filter-btn:focus,
+.filter-btn:active {
+  color: var(--button-link);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.primary {
+  background-color: var(--accent-color);
+  color: var(--color-white);
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--main-title-color);
+  letter-spacing: 0.06em;
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--main-bottom-color);
+  letter-spacing: 0.03em;
+}
+
+.footer-web {
+  color: var(--accent-color);
+}
+.footer-studio {
+  color: var(--color-white);
+}
+
+.footer-logo-link:hover,
+.footer-logo-link:focus,
+.footer-logo-link:active {
+  color: var(--accent-color);
+}
+
+.footer-logo-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.button-contact {
+  color: var(--main-bottom-color);
+}
+.footer {
+  background-color: var(--background-color);
+}
+.adress {
+  color: var(--color-white);
+}
+
+.footer-list {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-link:hover,
+.footer-link:focus,
+.footer-link:active {
+  color: var(--accent-color);
+}
