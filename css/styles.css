@@ -6,6 +6,7 @@
   --button-link: #f5f4f4;
   --background-color: #2f303a;
   --studio: #000000;
+  --section-bgc: #f5f4fa;
 }
 
 body {
@@ -27,6 +28,8 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 1170px;
   outline: 2px solid red;
 }
@@ -87,6 +90,9 @@ body {
 }
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: var(--background-color);
 }
 .hero-title {
@@ -120,7 +126,14 @@ body {
   text-align: center;
 }
 
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .features-skills-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -129,29 +142,55 @@ body {
 }
 
 .features-skills-text {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 14px;
   line-height: 1.71;
   color: var(--main-bottom-color);
   letter-spacing: 0.03em;
 }
 
-.employment-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  color: var(--main-title-color);
-  letter-spacing: 0.03em;
+.employment {
+  padding-top: 0;
+  padding-bottom: 94px;
 }
 
-.team-title {
+.employment-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   color: var(--main-title-color);
   letter-spacing: 0.03em;
+
+  text-align: center;
+}
+
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  background-color: var(--section-bgc);
+}
+.team-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--main-title-color);
+  letter-spacing: 0.03em;
+
+  text-align: center;
 }
 
 .team-player-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -159,6 +198,9 @@ body {
 }
 
 .team-text {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-size: 16px;
   line-height: 1.18;
   color: var(--main-bottom-color);
@@ -233,7 +275,14 @@ body {
   color: var(--main-bottom-color);
 }
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--background-color);
+}
+
+.footer-item {
+  margin-bottom: 9px;
 }
 .adress {
   color: var(--color-white);
