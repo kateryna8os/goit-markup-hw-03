@@ -25,6 +25,12 @@ body {
   text-decoration: none;
 }
 
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: ;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -53,6 +59,44 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.logo {
+  background-color: aqua;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.header-list {
+  display: flex;
+  margin-left: 93px;
+}
+.header-list .header-item {
+  background-color: aqua;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-list .header-item + .header-item {
+  margin-left: 50px;
+}
+
+.header-list li:last-child {
+  margin-right: 0px;
+}
+
+.header-contact {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-contact .header-item {
+  background-color: aqua;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-contact .header-item + .header-item {
+  margin-left: 50px;
 }
 
 .header-logo-link {
