@@ -137,8 +137,10 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
 
+  text-align: center;
   background-color: var(--background-color);
 }
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -150,8 +152,6 @@ body {
 
   color: var(--color-white);
   letter-spacing: 0.06em;
-
-  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -161,13 +161,12 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  text-align: center;
 
   color: var(--color-white);
   background-color: var(--accent-color);
   letter-spacing: 0.06em;
   cursor: pointer;
-
-  text-align: center;
 }
 
 .features {
