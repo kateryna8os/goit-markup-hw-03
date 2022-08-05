@@ -158,6 +158,7 @@ body {
 .hero-btn {
   border-radius: 4px;
   padding: 10px 32px;
+  border-style: none;
 
   font-weight: 700;
   font-size: 16px;
@@ -308,6 +309,7 @@ body {
 .filter-btn {
   border-radius: 4px;
   padding: 6px 22px;
+  border: none;
 
   font-weight: 500;
   font-size: 16px;
